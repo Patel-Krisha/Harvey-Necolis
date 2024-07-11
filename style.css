@@ -1,0 +1,181 @@
+body{
+    padding-top: 3%;
+}
+#part1{
+    background-color: white;
+}
+/* Style the dropdown container */
+.dropdown {
+    width: 200px;
+    padding-left: 10px;
+}
+
+/* Style the select element */
+.dropdown select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    /* border: 1px solid #ccc;
+    border-radius: 4px; */
+    background-color: #fff;
+}
+
+/* Style the dropdown options */
+.dropdown select option {
+    padding: 10px;
+}
+
+/* Hide the default dropdown arrow */
+.dropdown select::-ms-expand {
+    display: none;
+}
+
+/* Change the appearance of the dropdown arrow for other browsers */
+.dropdown select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+/* Reset default list styles */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Style the navigation links */
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Change the link color on hover */
+nav a:hover {
+    background-color: #555;
+}
+#pad{
+    padding-left: 50%;
+}
+.search-bar {
+    display: flex;
+    align-items: center;
+    border-bottom: 3px solid #ccc;
+    padding: 8px;
+    width:90%;
+  }
+  
+  .search-bar input[type="text"] {
+    flex: 1;
+    padding: 4px;
+    width:20%;
+    border: none;
+  }
+  
+ol{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding-left: 12%;
+    padding-right: 10%;
+}
+ol li{
+    margin-right: 42px;
+}
+hr{
+    width: 1410px;
+   border-color: black;
+   border-width: 2px;
+
+}
+#part2{
+    background-color: rgb(225, 220, 220);
+    margin-left: 3.5%;
+    margin-right: 3%;
+    padding-bottom: 10%;
+}
+table{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.equal-columns {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .equal-columns td {
+    width: 16.6667%;
+    padding: 10px;
+    padding-bottom: 2%;
+  }
+   td a {
+    color: #000;
+    text-decoration: none;
+    /* border-bottom: 1px solid #958f8f; */
+    padding: 8px;
+    text-align: center;
+    position: relative;
+  }
+  a::before {
+    content: "";
+    position: absolute;
+    /* top: -44px; Adjust this value to extend the border length */
+    left: -45px; /* Adjust this value to extend the border length */
+    width: calc(100% + 90px); /* Adjust this value to extend the border length */
+    height: calc(100% + 8px); /* Adjust this value to extend the border length */
+    border-bottom: 2px solid #8f8e8e; /* Replace #000 with your desired border color */
+  }
+  a.active::before{
+    content: "";
+    position: absolute;
+    /* top: -44px; Adjust this value to extend the border length */
+    left: -45px; /* Adjust this value to extend the border length */
+    width: calc(100% + 90px); /* Adjust this value to extend the border length */
+    height: calc(100% + 8px); /* Adjust this value to extend the border length */
+    border-bottom: 3px solid #000000; /* Replace #000 with your desired border color */
+  }
+ 
+#flag-container img{
+    padding-top: 1%;
+    padding-left: 1%;
+    height: 5%;
+    width: 4%;
+}
+#fashion{
+    position: fixed;
+    top: 55%;
+    left: 50%;
+    width: 300%;
+    max-width: 600px;
+    height: 600px;
+    overflow: hidden;
+    transform: translate(-50%,-50%);
+    background-color:whitesmoke;
+}
+#i5 {
+    padding: 1%;
+    cursor: pointer;
+    color: black;
+    padding-left: 80%;
+  }
+ #fashionBoy{
+    position: fixed;
+    top: 55%;
+    left: 50%;
+    width: 300%;
+    max-width: 600px;
+    height: 600px;
+    overflow: hidden;
+    transform: translate(-50%,-50%);
+    background-color:whitesmoke;
+ } 
+  #formData{
+    text-align: left;
+  }
